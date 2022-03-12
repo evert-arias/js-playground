@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/evert-arias/js-playground/issues"
   },
-  "homepage": "https://github.com/evert-arias/js-playground#readme"
+  "homepage": "https://github.com/evert-arias/js-playground#readme",
+  "type": "module"
 }
