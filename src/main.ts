@@ -1,12 +1,14 @@
-import { getEmojis, getFemaleUsers, getUsersByAge, getUsersByGenderAndAge } from "./array.js";
-import { Gender } from "./types/index.js";
+import * as array from "./array.js";
 
-console.log('Filter emojis: ', getEmojis())
+const args = process.argv.slice(2);
 
-console.log('Get all female users: ', getFemaleUsers())
-
-console.log('Get users by age: ', getUsersByAge(10))
-
-console.log('Get users by gender and age: ')
-
-console.table(getUsersByGenderAndAge(Gender.FEMALE, 14))
+switch (args[0]) {
+    case 'array':
+        array.run()
+        break;
+    case 'object':
+        // object.run()
+        break;
+    default:
+        console.log('No default option available.');
+}
