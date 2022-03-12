@@ -15,7 +15,7 @@ export interface IProduct {
     size: string;
 }
 
-export enum Gender {
+export enum EGender {
     MALE = 'male',
     FEMALE = 'female'
 }
