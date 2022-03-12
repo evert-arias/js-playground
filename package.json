@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx tsc",
     "start": "npm run build && node dist/main.js array",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
   },
   "repository": {
     "type": "git",
