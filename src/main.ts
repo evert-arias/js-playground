@@ -1,4 +1,4 @@
-import * as array from "./array.js";
+import * as array from './array.js';
 
 const args = process.argv.slice(2);
 
