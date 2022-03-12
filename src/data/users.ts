@@ -1,4 +1,6 @@
-export const users = [
+import { IUser } from "../types";
+
+export const users: IUser[] = [
   {
     id: 1000,
     name: 'Corey Griffith',
