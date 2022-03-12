@@ -2,9 +2,10 @@
   "name": "js-playground",
   "version": "1.0.0",
   "description": "JavaScript playground",
-  "main": "src/index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "array": "node src/array.js"
+    "build": "npx tsc",
+    "start": "npm run build && node dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,10 @@
     "url": "https://github.com/evert-arias/js-playground/issues"
   },
   "homepage": "https://github.com/evert-arias/js-playground#readme",
+  "devDependencies": {
+    "@evert-arias/tsconfig": "^1.0.0",
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  },
   "type": "module"
 }
