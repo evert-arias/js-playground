@@ -5,7 +5,8 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "npx tsc",
-    "start": "npm run build && node dist/main.js"
+    "start": "npm run build && node dist/main.js",
+    "lint": "eslint . --ext .ts"
   },
   "repository": {
     "type": "git",
