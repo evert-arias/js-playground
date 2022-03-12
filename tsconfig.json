@@ -1,6 +1,7 @@
 {
   "extends": "@evert-arias/tsconfig/tsconfig.json",
   "compilerOptions": {
-   "outDir": "dist"
+   "outDir": "dist",
+   "noUnusedLocals": false
   }
  }
