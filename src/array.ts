@@ -18,10 +18,6 @@ const getUsersByGenderAndAge = (gender: EGender, age: number) => {
 }
 
 const run = () => {
-  console.log('Filter emojis: ', getEmojis())
-  console.log('Get all female users: ', getFemaleUsers())
-  console.log('Get users by age: ', getUsersByAge(10))
-  console.log('Get users by gender and age: ')
   console.table(getUsersByGenderAndAge(EGender.FEMALE, 14))
 }
 
