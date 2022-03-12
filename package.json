@@ -1,0 +1,22 @@
+{
+  "name": "js-playground",
+  "version": "1.0.0",
+  "description": "JavaScript playground",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evert-arias/js-playground.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Evert Arias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evert-arias/js-playground/issues"
+  },
+  "homepage": "https://github.com/evert-arias/js-playground#readme"
+}
